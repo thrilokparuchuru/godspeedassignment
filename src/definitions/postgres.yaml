@@ -1,0 +1,46 @@
+Restaurant:
+  type: object
+  properties:
+    createdAt:
+      type: string
+      format: date-time
+    name:
+      type: string
+    since:
+      type: string
+      format: date-time
+    isOpen:
+      type: boolean
+      default: false
+    opsStartTime:
+      type: string
+      format: date-time
+    opsEndTime:
+      type: string
+      format: date-time
+    ownerId:
+      type: integer
+      nullable: true
+    slug:
+      type: string
+    description:
+      type: string
+      nullable: true
+    location:
+      type: string
+MenuItems:
+  type: object
+  properties:
+    name:
+      type: string
+    description:
+      type: string
+      nullable: true
+    price:
+      type: integer
+    couponCode:
+      type: array
+      items:
+        type: string
+    restaurantId:
+      type: integer

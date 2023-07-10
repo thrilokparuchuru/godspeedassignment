@@ -1,0 +1,849 @@
+{
+    "item": [
+        {
+            "id": "a25ecfa5-2b62-4573-82f4-5190b296552a",
+            "name": "Fetch MenuItems",
+            "request": {
+                "name": "Fetch MenuItems",
+                "description": {
+                    "content": "Fetch MenuItems from database",
+                    "type": "text/plain"
+                },
+                "url": {
+                    "path": [
+                        "postgres",
+                        "menuitems",
+                        ":id"
+                    ],
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "query": [],
+                    "variable": [
+                        {
+                            "disabled": false,
+                            "type": "any",
+                            "value": "<string>",
+                            "key": "id",
+                            "description": "(Required) "
+                        }
+                    ]
+                },
+                "method": "GET",
+                "auth": null
+            },
+            "response": [
+                {
+                    "id": "202deb52-d03b-4c02-9bb3-fbc19ba39829",
+                    "originalRequest": {
+                        "url": {
+                            "path": [
+                                "postgres",
+                                "menuitems",
+                                ":id"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": [
+                                {
+                                    "disabled": false,
+                                    "type": "any",
+                                    "value": "<string>",
+                                    "key": "id",
+                                    "description": "(Required) "
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "body": {}
+                    },
+                    "status": "Internal Server Error",
+                    "code": 500,
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "text/plain"
+                        }
+                    ],
+                    "body": "",
+                    "cookie": [],
+                    "_postman_previewlanguage": "text"
+                }
+            ],
+            "event": []
+        },
+        {
+            "id": "f4dc8101-26c2-4fe9-b14b-d5ae69f53d70",
+            "name": "Update a MenuItems",
+            "request": {
+                "name": "Update a MenuItems",
+                "description": {
+                    "content": "Update MenuItems from database",
+                    "type": "text/plain"
+                },
+                "url": {
+                    "path": [
+                        "postgres",
+                        "menuitems",
+                        ":id"
+                    ],
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "query": [],
+                    "variable": [
+                        {
+                            "disabled": false,
+                            "type": "any",
+                            "value": "<string>",
+                            "key": "id",
+                            "description": "(Required) "
+                        }
+                    ]
+                },
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "method": "PUT",
+                "auth": null,
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"value\": \"reference #/definitions/postgres/MenuItems not found in the OpenAPI spec\"\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                }
+            },
+            "response": [
+                {
+                    "id": "f4f9d787-7129-4db3-a243-5707ff69f503",
+                    "originalRequest": {
+                        "url": {
+                            "path": [
+                                "postgres",
+                                "menuitems",
+                                ":id"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": [
+                                {
+                                    "disabled": false,
+                                    "type": "any",
+                                    "value": "<string>",
+                                    "key": "id",
+                                    "description": "(Required) "
+                                }
+                            ]
+                        },
+                        "method": "PUT",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"value\": \"reference #/definitions/postgres/MenuItems not found in the OpenAPI spec\"\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        }
+                    },
+                    "status": "Internal Server Error",
+                    "code": 500,
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "text/plain"
+                        }
+                    ],
+                    "body": "",
+                    "cookie": [],
+                    "_postman_previewlanguage": "text"
+                }
+            ],
+            "event": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            }
+        },
+        {
+            "id": "9e07ea8a-accc-4371-8ddb-7320fa87dd35",
+            "name": "Delete a MenuItems",
+            "request": {
+                "name": "Delete a MenuItems",
+                "description": {
+                    "content": "Delete MenuItems from database",
+                    "type": "text/plain"
+                },
+                "url": {
+                    "path": [
+                        "postgres",
+                        "menuitems",
+                        ":id"
+                    ],
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "query": [],
+                    "variable": [
+                        {
+                            "disabled": false,
+                            "type": "any",
+                            "value": "<string>",
+                            "key": "id",
+                            "description": "(Required) "
+                        }
+                    ]
+                },
+                "method": "DELETE",
+                "auth": null
+            },
+            "response": [
+                {
+                    "id": "99dc24fc-b9ae-478e-b48b-6a5f1774ba8a",
+                    "originalRequest": {
+                        "url": {
+                            "path": [
+                                "postgres",
+                                "menuitems",
+                                ":id"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": [
+                                {
+                                    "disabled": false,
+                                    "type": "any",
+                                    "value": "<string>",
+                                    "key": "id",
+                                    "description": "(Required) "
+                                }
+                            ]
+                        },
+                        "method": "DELETE",
+                        "body": {}
+                    },
+                    "status": "Internal Server Error",
+                    "code": 500,
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "text/plain"
+                        }
+                    ],
+                    "body": "",
+                    "cookie": [],
+                    "_postman_previewlanguage": "text"
+                }
+            ],
+            "event": []
+        },
+        {
+            "id": "869c85d6-c45d-4f3c-94af-e4535b3a62fe",
+            "name": "Create a new MenuItems",
+            "request": {
+                "name": "Create a new MenuItems",
+                "description": {
+                    "content": "Create MenuItems from database",
+                    "type": "text/plain"
+                },
+                "url": {
+                    "path": [
+                        "postgres",
+                        "menuitems"
+                    ],
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "query": [],
+                    "variable": []
+                },
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "method": "POST",
+                "auth": null,
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"value\": \"reference #/definitions/postgres/MenuItems not found in the OpenAPI spec\"\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                }
+            },
+            "response": [
+                {
+                    "id": "529e10ac-b09e-42d9-a498-3df796d10461",
+                    "originalRequest": {
+                        "url": {
+                            "path": [
+                                "postgres",
+                                "menuitems"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        },
+                        "method": "POST",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"value\": \"reference #/definitions/postgres/MenuItems not found in the OpenAPI spec\"\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        }
+                    },
+                    "status": "Internal Server Error",
+                    "code": 500,
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "text/plain"
+                        }
+                    ],
+                    "body": "",
+                    "cookie": [],
+                    "_postman_previewlanguage": "text"
+                }
+            ],
+            "event": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            }
+        },
+        {
+            "id": "efbeded6-027f-47ba-903e-6cea65920f23",
+            "name": "Fetch multiple MenuItems",
+            "request": {
+                "name": "Fetch multiple MenuItems",
+                "description": {
+                    "content": "Fetch multiple MenuItems from database",
+                    "type": "text/plain"
+                },
+                "url": {
+                    "path": [
+                        "postgres",
+                        "menuitems",
+                        "search"
+                    ],
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "query": [],
+                    "variable": []
+                },
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "method": "POST",
+                "auth": null,
+                "body": {
+                    "mode": "raw",
+                    "raw": "\"<object>\"",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                }
+            },
+            "response": [
+                {
+                    "id": "b12da249-13ae-495e-a56a-567e57dad1bc",
+                    "originalRequest": {
+                        "url": {
+                            "path": [
+                                "postgres",
+                                "menuitems",
+                                "search"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        },
+                        "method": "POST",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "\"<object>\"",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        }
+                    },
+                    "status": "Internal Server Error",
+                    "code": 500,
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "text/plain"
+                        }
+                    ],
+                    "body": "",
+                    "cookie": [],
+                    "_postman_previewlanguage": "text"
+                }
+            ],
+            "event": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            }
+        },
+        {
+            "id": "18ec9dad-ab4e-4fdd-8a28-de211a7c197b",
+            "name": "Fetch Restaurant",
+            "request": {
+                "name": "Fetch Restaurant",
+                "description": {
+                    "content": "Fetch Restaurant from database",
+                    "type": "text/plain"
+                },
+                "url": {
+                    "path": [
+                        "postgres",
+                        "restaurant",
+                        ":id"
+                    ],
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "query": [],
+                    "variable": [
+                        {
+                            "disabled": false,
+                            "type": "any",
+                            "value": "<string>",
+                            "key": "id",
+                            "description": "(Required) "
+                        }
+                    ]
+                },
+                "method": "GET",
+                "auth": null
+            },
+            "response": [
+                {
+                    "id": "4bf80b2b-522d-4a5b-b9bc-51ad981901d9",
+                    "originalRequest": {
+                        "url": {
+                            "path": [
+                                "postgres",
+                                "restaurant",
+                                ":id"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": [
+                                {
+                                    "disabled": false,
+                                    "type": "any",
+                                    "value": "<string>",
+                                    "key": "id",
+                                    "description": "(Required) "
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "body": {}
+                    },
+                    "status": "Internal Server Error",
+                    "code": 500,
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "text/plain"
+                        }
+                    ],
+                    "body": "",
+                    "cookie": [],
+                    "_postman_previewlanguage": "text"
+                }
+            ],
+            "event": []
+        },
+        {
+            "id": "c829623f-3e4b-479c-9590-68e61220f389",
+            "name": "Update a Restaurant",
+            "request": {
+                "name": "Update a Restaurant",
+                "description": {
+                    "content": "Update Restaurant from database",
+                    "type": "text/plain"
+                },
+                "url": {
+                    "path": [
+                        "postgres",
+                        "restaurant",
+                        ":id"
+                    ],
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "query": [],
+                    "variable": [
+                        {
+                            "disabled": false,
+                            "type": "any",
+                            "value": "<string>",
+                            "key": "id",
+                            "description": "(Required) "
+                        }
+                    ]
+                },
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "method": "PUT",
+                "auth": null,
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"value\": \"reference #/definitions/postgres/Restaurant not found in the OpenAPI spec\"\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                }
+            },
+            "response": [
+                {
+                    "id": "240d5232-f215-4674-91c8-484e5d2a8ac4",
+                    "originalRequest": {
+                        "url": {
+                            "path": [
+                                "postgres",
+                                "restaurant",
+                                ":id"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": [
+                                {
+                                    "disabled": false,
+                                    "type": "any",
+                                    "value": "<string>",
+                                    "key": "id",
+                                    "description": "(Required) "
+                                }
+                            ]
+                        },
+                        "method": "PUT",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"value\": \"reference #/definitions/postgres/Restaurant not found in the OpenAPI spec\"\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        }
+                    },
+                    "status": "Internal Server Error",
+                    "code": 500,
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "text/plain"
+                        }
+                    ],
+                    "body": "",
+                    "cookie": [],
+                    "_postman_previewlanguage": "text"
+                }
+            ],
+            "event": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            }
+        },
+        {
+            "id": "e5b6c3f9-747b-40c1-930e-b32ace50012f",
+            "name": "Delete a Restaurant",
+            "request": {
+                "name": "Delete a Restaurant",
+                "description": {
+                    "content": "Delete Restaurant from database",
+                    "type": "text/plain"
+                },
+                "url": {
+                    "path": [
+                        "postgres",
+                        "restaurant",
+                        ":id"
+                    ],
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "query": [],
+                    "variable": [
+                        {
+                            "disabled": false,
+                            "type": "any",
+                            "value": "<string>",
+                            "key": "id",
+                            "description": "(Required) "
+                        }
+                    ]
+                },
+                "method": "DELETE",
+                "auth": null
+            },
+            "response": [
+                {
+                    "id": "f785d6c1-c8e3-4bb2-8a85-8e7a7643c78c",
+                    "originalRequest": {
+                        "url": {
+                            "path": [
+                                "postgres",
+                                "restaurant",
+                                ":id"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": [
+                                {
+                                    "disabled": false,
+                                    "type": "any",
+                                    "value": "<string>",
+                                    "key": "id",
+                                    "description": "(Required) "
+                                }
+                            ]
+                        },
+                        "method": "DELETE",
+                        "body": {}
+                    },
+                    "status": "Internal Server Error",
+                    "code": 500,
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "text/plain"
+                        }
+                    ],
+                    "body": "",
+                    "cookie": [],
+                    "_postman_previewlanguage": "text"
+                }
+            ],
+            "event": []
+        },
+        {
+            "id": "3408db61-1d31-4675-8247-bc90ea7fd48d",
+            "name": "Create a new Restaurant",
+            "request": {
+                "name": "Create a new Restaurant",
+                "description": {
+                    "content": "Create Restaurant from database",
+                    "type": "text/plain"
+                },
+                "url": {
+                    "path": [
+                        "postgres",
+                        "restaurant"
+                    ],
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "query": [],
+                    "variable": []
+                },
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "method": "POST",
+                "auth": null,
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"value\": \"reference #/definitions/postgres/Restaurant not found in the OpenAPI spec\"\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                }
+            },
+            "response": [
+                {
+                    "id": "b654fe39-72f6-4aea-a787-dd389b2307ed",
+                    "originalRequest": {
+                        "url": {
+                            "path": [
+                                "postgres",
+                                "restaurant"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        },
+                        "method": "POST",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"value\": \"reference #/definitions/postgres/Restaurant not found in the OpenAPI spec\"\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        }
+                    },
+                    "status": "Internal Server Error",
+                    "code": 500,
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "text/plain"
+                        }
+                    ],
+                    "body": "",
+                    "cookie": [],
+                    "_postman_previewlanguage": "text"
+                }
+            ],
+            "event": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            }
+        },
+        {
+            "id": "c15e2abb-75ca-4c8e-9d23-ff8ee9d15fc8",
+            "name": "Fetch multiple Restaurant",
+            "request": {
+                "name": "Fetch multiple Restaurant",
+                "description": {
+                    "content": "Fetch multiple Restaurant from database",
+                    "type": "text/plain"
+                },
+                "url": {
+                    "path": [
+                        "postgres",
+                        "restaurant",
+                        "search"
+                    ],
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "query": [],
+                    "variable": []
+                },
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "method": "POST",
+                "auth": null,
+                "body": {
+                    "mode": "raw",
+                    "raw": "\"<object>\"",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                }
+            },
+            "response": [
+                {
+                    "id": "cac612a6-589c-4bf8-98bd-a7c4a9c4b08d",
+                    "originalRequest": {
+                        "url": {
+                            "path": [
+                                "postgres",
+                                "restaurant",
+                                "search"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        },
+                        "method": "POST",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "\"<object>\"",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        }
+                    },
+                    "status": "Internal Server Error",
+                    "code": 500,
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "text/plain"
+                        }
+                    ],
+                    "body": "",
+                    "cookie": [],
+                    "_postman_previewlanguage": "text"
+                }
+            ],
+            "event": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            }
+        }
+    ],
+    "event": [],
+    "variable": [
+        {
+            "type": "string",
+            "value": "http://localhost:3000",
+            "key": "baseUrl"
+        }
+    ],
+    "info": {
+        "_postman_id": "f94baf75-cefb-439f-a939-a8bb972fa43c",
+        "name": "Godspeed: Sample Microservice",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": {
+            "content": "Sample API calls demonstrating the functionality of Godspeed framework\n\nContact Support:\n Name: Mindgrep Technologies Pvt Ltd\n Email: talktous@mindgrep.com",
+            "type": "text/plain"
+        }
+    }
+}
